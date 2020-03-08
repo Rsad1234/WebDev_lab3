@@ -1,0 +1,21 @@
+<html lang="en">
+
+<head>
+    {{>header}}
+</head>
+
+<body class="container">
+<h1 class="label-info">{{title}}</h1>
+{{#entries}}
+    <div class="panel panel-default">
+          <div class="panel-heading">
+              {{subject}}
+          </div>
+          <div class="panel-body">
+              {{review}}
+          </div>
+     </div>
+{{/entries}}
+</body>
+
+</html>
